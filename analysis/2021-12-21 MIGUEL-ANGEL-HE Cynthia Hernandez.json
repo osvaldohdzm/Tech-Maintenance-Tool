@@ -1,0 +1,57 @@
+{
+  "<<template_name>>": "templates\\Plantilla de reporte mantenimiento.docx",
+  "<<request_date>>": "24/11/2021",
+  "<<company_name>>": "",
+  "<<company_address>>": "",
+  "<<company_zip_code>>": "",
+  "<<company_telephone>>": "",
+  "<<report_name>>": "Instalación y activación de Paquetería Office 2021",
+  "<<client_name>>": "Cynthia",
+  "<<client_telephone>>": "",
+  "<<client_email>>": "",
+  "<<client_address>>": "",
+  "<<provider_telephone>>": "5537276141",
+  "<<provider_email>>": "osvaldo.hdz.m@outlook.com",
+  "<<provider_name>>": "Osvaldo Hernández Morales",
+  "<<provider_address>>": "1ra Cda. Sn. Francisco Xicaltongo No. 33",
+  "<<provider_sign>>": "Osvaldo Hernández Morales",
+  "<<device_model>>": "20239",
+  "<<device_manufacturer>>": "LENOVO",
+  "<<device_hard_disk>>": "-",
+  "<<device_memory>>": "8 GB",
+  "<<device_procesor>>": "AMD E1-2100 APU with Radeon(TM) HD Graphics, 1000 Mhz, 2 procesadores principales, 2 procesadores lógicos",
+  "<<device_serie>>": "-",
+  "<<device_power>>": "",
+  "<<operative_system>>": "Windows 10 Pro",
+  "<<users>>": "MIGUEL-ANGEL-HE\\Hernández",
+  "<<hostname>>": "MIGUEL-ANGEL-HE",
+  "<<domain>>": "",
+  "<<bios>>": "31900004WIN8 STD SGL",
+  "<<software_list>>": [
+    "N/A"
+  ],
+  "<<problems_list>>": [
+    
+  ],
+  "<<diagnostics>>": [
+  ],
+  "<<budget_product>>": [
+    
+  ],
+  "<<budget_service>>": [
+
+    {
+      "<<concept>>": "Instalación de paquetería Office 2021 con licencia activada",
+      "<<price>>": "120",
+      "<<discount>>": "0.40"
+    }
+  ],
+  "<<recomendations>>": [
+    "Incrementar la memoria RAM a 16 GB podría brindar un mayor rendimiento.",
+    "Cambiar el disco duro por uno de estado sólido podría brindar un mayor rendimiento.",
+    "Usar siempre fondos pantalla de color sólido podría brindar un cambio de aplicaciones más fluido."
+  ],
+  "<<tecnic_details>>": [
+    "N/A"
+  ]
+}

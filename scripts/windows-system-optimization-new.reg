@@ -1,0 +1,89 @@
+Windows Registry Editor Version 5.00
+
+; Hide cortana button
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"ShowCortanaButton"=dword:00000000
+
+; Hide search box bar
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Search]
+"SearchboxTaskbarMode"=dword:00000000
+
+; Hide task button
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"ShowTaskViewButton"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"HideFileExt"=dword:00000000
+
+;This is a must - set appearance options to "custom"
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects]
+"VisualFXSetting"=dword:3
+
+;This disables the following 8 settings:
+;Animate controls and elements inside windows
+;Fade or slide menus into view
+;Fade or slide ToolTips into view
+;Fade out menu items after clicking
+;Show shadows under mouse pointer
+;Show shadows under windows
+;Slide open combo boxes
+;Smooth-scroll list boxes
+[HKEY_CURRENT_USER\Control Panel\Desktop]
+"UserPreferencesMask"=hex(2):90,12,03,80,10,00,00,00
+
+
+;Animate windows when minimizing and maximizing
+[HKEY_CURRENT_USER\Control Panel\Desktop\WindowMetrics]
+"MinAnimate"="0"
+
+
+;Animations in the taskbar
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"TaskbarAnimations"=dword:0
+
+
+;Enable Peek
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\DWM]
+"EnableAeroPeek"=dword:0
+
+
+;Save taskbar thumbnail previews
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\DWM]
+"AlwaysHibernateThumbnails"=dword:0
+
+
+;Show thumbnails instead of icons
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"IconsOnly"=dword:1
+
+
+;Show translucent selection rectangle
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"ListviewAlphaSelect"=dword:0
+
+
+;Show window contents while dragging
+[HKEY_CURRENT_USER\Control Panel\Desktop]
+"DragFullWindows"="0"
+
+
+;Smooth edges of screen fonts
+[HKEY_CURRENT_USER\Control Panel\Desktop]
+"FontSmoothing"=dword:1
+
+
+;Use drop shadows for icon labels on the desktop
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"ListviewShadow"=dword:0
+
+;Activar selección de alto performance
+;[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Power\PowerSettings]
+;"ActivePowerScheme"="8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c"
+
+; plan ultimate
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Power\PowerSettings]
+"ActivePowerScheme"="e9a42b02-d5df-448d-aa00-03f14749eb61"
+
+; Activar planes energia
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power]
+"CsEnabled"=dword:0

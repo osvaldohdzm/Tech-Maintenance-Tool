@@ -1,0 +1,90 @@
+{
+  "<<template_name>>": "templates\\Plantilla de reporte mantenimiento.docx",
+  "<<request_date>>": "04/01/2022",
+  "<<company_name>>": "",
+  "<<company_address>>": "",
+  "<<company_zip_code>>": "",
+  "<<company_telephone>>": "",
+  "<<report_name>>": "Armado de computadora V2",
+  "<<client_name>>": "Diana Valencia",
+  "<<client_telephone>>": "",
+  "<<client_email>>": "",
+  "<<client_address>>": "",
+  "<<provider_telephone>>": "5547360480",
+  "<<provider_email>>": "osvaldo.hdz.m@outlook.com",
+  "<<provider_name>>": "Osvaldo Hernández Morales",
+  "<<provider_address>>": "1ra Cda. Sn. Francisco Xicaltongo No. 33",
+  "<<provider_sign>>": "Osvaldo Hernández Morales",
+  "<<device_model>>": "N/A",
+  "<<device_manufacturer>>": "N/A",
+  "<<device_hard_disk>>": "N/A",
+  "<<device_memory>>": "N/A",
+  "<<device_procesor>>": "N/A",
+  "<<device_serie>>": "N/A",
+  "<<device_power>>": "N/A",
+  "<<operative_system>>": "N/A",
+  "<<users>>": "N/A",
+  "<<hostname>>": "N/A",
+  "<<domain>>": "",
+  "<<bios>>": "N/A",
+  "<<software_list>>": [
+    "N/A"
+  ],
+  "<<problems_list>>": [
+
+  ],
+  "<<diagnostics>>": [
+
+  ],
+  "<<budget_product>>": [
+     {
+      "<<concept>>": "PROCESADOR I5 10400",
+      "<<cantidad>>": "1",
+      "<<price>>": "4500",
+      "<<discount>>": "0"
+    },
+    {
+      "<<concept>>": "MOTHERBOARD B460M-2",
+      "<<cantidad>>": "1",
+      "<<price>>": "2200",
+      "<<discount>>": "0"
+    },
+    {
+      "<<concept>>": "DISCO DURO SSD 240 GB KINGSTON",
+      "<<cantidad>>": "1",
+      "<<price>>": "700",
+      "<<discount>>": "0"
+    },
+    {
+      "<<concept>>": "MEMORIA RAM 8 GB (16 GB TOTAL)",
+      "<<cantidad>>": "2",
+      "<<price>>": "800",
+      "<<discount>>": "0"
+    },
+    {
+      "<<concept>>": "GABINETE ADATA XPG ATX STARKER VENTANA CON FUENTE 600W ARGB USB 3.0 NEGRO",
+      "<<cantidad>>": "1",
+      "<<price>>": "2300",
+      "<<discount>>": "0"
+    }
+  ],
+   "<<budget_include_iva>>": true,
+  "<<budget_service>>": [
+    {
+      "<<concept>>": "ARMADO DE PC",
+      "<<price>>": "180",
+      "<<discount>>": "0.25"
+    },
+    {
+      "<<concept>>": "CONSULTA DE CONFIGURACIONES PERSONALIZADAS DE PC",
+      "<<price>>": "0",
+      "<<discount>>": "0"
+    }
+  ],
+  "<<recomendations>>": [
+    "El procesador incluye gráficos, pero en cuanto sea requerido se recomienda agregar una tarjeta gráfica GeForce GT 1030 o una mejor aún como la GeForce GTX 1050."
+  ],
+  "<<tecnic_details>>": [
+    "N/A"
+  ]
+}

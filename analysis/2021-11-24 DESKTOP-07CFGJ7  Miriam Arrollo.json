@@ -1,0 +1,72 @@
+{
+  "<<template_name>>": "templates\\Plantilla de reporte mantenimiento.docx",
+  "<<request_date>>": "24/11/2021",
+  "<<company_name>>": "",
+  "<<company_address>>": "",
+  "<<company_zip_code>>": "",
+  "<<company_telephone>>": "",
+  "<<report_name>>": "Mantenimiento correctivo de computadora",
+  "<<client_name>>": "Miriam",
+  "<<client_telephone>>": "",
+  "<<client_email>>": "",
+  "<<client_address>>": "",
+  "<<provider_telephone>>": "5537276141",
+  "<<provider_email>>": "osvaldo.hdz.m@outlook.com",
+  "<<provider_name>>": "Osvaldo Hernández Morales",
+  "<<provider_address>>": "1ra Cda. Sn. Francisco Xicaltongo No. 33",
+  "<<provider_sign>>": "Osvaldo Hernández Morales",
+  "<<device_model>>": "HP Touch Smart 520 PC",
+  "<<device_manufacturer>>": "Hewlett-Packard",
+  "<<device_hard_disk>>": "1.8 TB WDC WD20EARS-60MVWB0",
+  "<<device_memory>>": "2 SLOT, 8 GB DIMM DDR3",
+  "<<device_procesor>>": "Intel(R) Core(TM) i5-2400S",
+  "<<device_serie>>": "-",
+  "<<device_power>>": "",
+  "<<operative_system>>": "Windows 10 Pro",
+  "<<users>>": "Miri",
+  "<<hostname>>": "DESKTOP-07CFGJ7",
+  "<<domain>>": "",
+  "<<bios>>": "AMI 7.06, 14/10/2011",
+  "<<software_list>>": [
+    "N/A"
+  ],
+  "<<problems_list>>": [
+    "El dispositivo inicia la BIOS pero al cargar el sistema operativo, muestra un error y no se inicia."
+  ],
+  "<<diagnostics>>": [
+    {
+      "<<problem>>": "Se borraron carpetas y archivos necesarias para sistema operativo Windows, y también todas las carpetas con archivos de usuario, en este estado el equipo no es capaz de iniciar. Se reconocieron dos posibles archivos causantes de borrar los datos, estos archivos son identificados fueron malware.",
+      "<<solutions>>": [
+        "Debido a que los archivos no pueden ser restaurados sin requerir un procedimiento de varios días (sin garantía de recuperar más del 30% de los archivos). La opción más viable es reinstalar el sistema operativo y configurar el antivirus integrado con Windows (Windows Defender) sin instalar uno adicional."
+      ]
+    }
+  ],
+  "<<budget_product>>": [
+    
+  ],
+  "<<budget_service>>": [
+    {
+      "<<concept>>": "Instalacion de sistema operativo Windows 10 Pro con licencia activada",
+      "<<price>>": "240",
+      "<<discount>>": "0.30"
+    },
+    {
+      "<<concept>>": "Instalación de paquetería Office 2019 con licencia activada",
+      "<<price>>": "120",
+      "<<discount>>": "0.30"
+    },
+    {
+      "<<concept>>": "Configuración de antivirus integrado de Windows con reglas recomendadas",
+      "<<price>>": "0",
+      "<<discount>>": "0"
+    }
+  ],
+  "<<recomendations>>": [
+    "Incrementar la memoria RAM a 16 GB podría brindar un mayor rendimiento.",
+    "Cambiar el disco duro por uno de estado sólido podría brindar un mayor rendimiento.",
+    "Usar siempre fondos pantalla de color sólido podría brindar un cambio de aplicaciones más fluido."
+  ],
+  "<<tecnic_details>>": [
+    "N/A"
+  ]
+}
